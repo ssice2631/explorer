@@ -1,0 +1,19 @@
+{
+    "chain_name": "nameservice",
+    "alias": "nameservice-protocol",
+    "api": "http://10.24.55.219:1317",
+    "rpc": ["http://10.24.55.219:26657", "http://10.24.55.219:26657"],
+    "snapshot_provider": "",
+    "addr_prefix": "band",
+    "coin_type": "494",
+    "min_tx_fee": "8000",
+    "assets": [{
+        "base": "uband",
+        "symbol": "BAND",
+        "exponent": "6",
+        "coingecko_id": "band-protocol", 
+        "logo": "/logos/band-protocol.svg"
+    }],
+    "logo": "/logos/band-protocol.svg",
+    "sdk_version": "0.45.8"
+}
